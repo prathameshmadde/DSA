@@ -1,0 +1,19 @@
+class ProductOfBuzz 
+{
+	public static void main(String[] args) 
+	{	int [] a= {7,14,21,59,68};
+		
+		System.out.println("Product of Buzz Elements = " + productBuzz(a) );
+	}
+	
+	public static int productBuzz(int[] num){
+		int product = 1;
+		for (int i =0 ; i< num.length ; i++ )
+		{
+			if (num[i]%7 == 0 || num[i]%10 ==7) 
+			{product = product * num[i];
+			}
+		}
+		return product ; //2058
+	}
+}

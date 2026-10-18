@@ -1,0 +1,20 @@
+class Q25PrintSumNoDivisiblebyThree
+{
+	public static void main(String[] args) 
+	{
+		int[] a = {14, 27, 35, 42, 50, 67, 89};
+		System.out.println(printNumbyThree(a));
+	}
+	public static int printNumbyThree(int [] num){
+		int sum = 0;
+		
+		for (int i =0 ; i< num.length ;i++ )
+		{
+			if (num[i]%3 == 0)
+		{
+			sum = sum + num[i];
+		}
+		}
+		return sum ;
+	}
+}

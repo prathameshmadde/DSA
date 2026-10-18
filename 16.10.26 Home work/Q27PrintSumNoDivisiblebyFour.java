@@ -1,0 +1,21 @@
+class Q27PrintSumNoDivisiblebyFour
+{
+	public static void main(String[] args) 
+	{
+		int[] a = {14, 27, 35, 44, 50, 67, 80};
+		System.out.println(printNumbyFour(a)) ;
+	}
+	public static int printNumbyFour(int [] num){
+		int sum =0;
+		for (int i =0 ; i< num.length ;i++ )
+		{
+		if (num[i]%4 == 0)
+		{
+			sum = sum + num[i];
+		}
+		
+		}
+		return sum;
+	
+	}
+}

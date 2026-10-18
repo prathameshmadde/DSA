@@ -1,0 +1,17 @@
+class ProductOfElements 
+{
+	public static void main(String[] args) 
+	{	int [] a= {1,5,3,4};
+		
+		System.out.println("Sum of Elements = " + sumEven(a) );
+	}
+	
+	public static int sumEven(int[] num){
+		int product = 1;
+		for (int i =0 ; i< num.length ; i++ )
+		{
+			product = product * num[i];
+		}
+		return product;
+	}
+}

@@ -1,0 +1,20 @@
+class SumOfOddElements 
+{
+	public static void main(String[] args) 
+	{	int [] a= {10,5,8,7,3,9};
+		
+		System.out.println("Sum of Elements = " + sumEven(a) );
+	}
+	
+	public static int sumEven(int[] num){
+		int sum =0;
+		for (int i =0 ; i< num.length ; i++ )
+		{
+			if (num[i]%2 != 0)
+			{sum = sum + num[i];
+			}
+		}
+		return sum;
+	}
+}
+

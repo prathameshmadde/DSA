@@ -1,0 +1,17 @@
+class Q23PrintNonZero
+{
+	public static void main(String[] args) 
+	{
+		int[] a = {14, 27, 35, 42, 50, 67, 89};
+		printNonZero(a) ;
+	}
+	public static void printNonZero(int [] num){
+		for (int i =0 ; i< num.length ;i++ )
+		{
+			if (num[i] !=0)
+		{
+			System.out.println(num[i]);
+		}
+		}
+	}
+}
