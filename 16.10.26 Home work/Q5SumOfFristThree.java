@@ -12,7 +12,7 @@ class  	Q5SumOfFristThree
 		for (int i = 0 ; i< 3 ; i++ )
 		{sum = sum + num[i];
 		}
-		return sum ;
+		return sum;
 	}
 	
 }
