@@ -1,0 +1,18 @@
+class Q25PrintNumDivisibleBythree 
+{
+	public static void main(String[] args) 
+	{
+		int [] arr = {10,21,40,33,50};
+		printbyThree(arr);
+	}
+	public static void printbyThree(int [] a ){
+		
+		for (int a : a)
+		{
+			if ( a % 3 == 0)
+			{
+				System.out.println(a);
+			}
+		}
+	}
+}

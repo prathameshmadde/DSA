@@ -1,0 +1,14 @@
+public class Pb9 {
+	public static void main(String[] args) {
+		char[] ch = {'A', 'b', '@', 'E', 'm', '#', 'u', 'P', '7'};
+		eveIndex(ch);
+	}
+	public static void eveIndex(char [] ch) {
+		for (char c : ch) {
+			if(c % 2 == 0)
+			{
+				System.out.println(c);
+			}
+		}
+	}
+}

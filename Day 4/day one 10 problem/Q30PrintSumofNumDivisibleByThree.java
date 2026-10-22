@@ -1,0 +1,19 @@
+class Q30PrintSumofNumDivisibleByThree
+{
+	public static void main(String[] args) 
+	{
+		int [] arr = {10,21,40,33,52};
+		printbyThree(arr);
+	}
+	public static void printbyThree(int [] num ){
+		int sum = 1;
+		for (int a : num)
+		{
+			if ( a % 3 == 0)
+			{
+				sum = sum * a;
+			}
+		}
+		System.out.println( "Sum of Num divisible by three = "+ sum);
+	}
+}

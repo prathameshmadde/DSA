@@ -1,0 +1,15 @@
+public class Pb12 {
+	public static void main(String[] args) {
+		char[] ch = {'A', 'b', '@', 'E', 'm', '#', 'u', 'P', '7'};
+		eIndex(ch);
+	}
+	public static void eIndex(char [] ch) {
+		for (char c : ch) {
+			if(c =='a'||c =='e'||c =='o'||c =='i'||c =='u'||
+					c =='A'||c =='E'||c =='O'||c =='I'||c =='U'	)
+			{
+				System.out.println(c);
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+public class Pb11 {
+	public static void main(String[] args) {
+		char[] ch = {'A', 'b', '@', 'E', 'm', '#', 'u', 'P', '7'};
+		eIndex(ch);
+	}
+	public static void eIndex(char [] ch) {
+		for (char c : ch) {
+			if(c % 2 == 0) {
+				System.out.println(c);
+			}
+		}
+	}
+}
